@@ -98,11 +98,11 @@ def map_plot():
 	plt.tight_layout()
         print iframe, 360-iframe
     	if 360-iframe<10:
-    	    fig.savefig("anim_gifs/globe_plot_00"+str(360-iframe)+".jpg")
+    	    fig.savefig("anim_jpgs/globe_plot_00"+str(360-iframe)+".jpg")
         elif 360-iframe<100:
-            fig.savefig("anim_gifs/globe_plot_0"+str(360-iframe)+".jpg")
+            fig.savefig("anim_jpgs/globe_plot_0"+str(360-iframe)+".jpg")
         else:
-            fig.savefig("anim_gifs/globe_plot_"+str(360-iframe)+".jpg")
+            fig.savefig("anim_jpgs/globe_plot_"+str(360-iframe)+".jpg")
 #Main controling function
 def main():
     map_plot()
